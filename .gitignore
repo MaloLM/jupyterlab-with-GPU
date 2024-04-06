@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg  
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/   # Ignore checkpoint files created by Jupyter
+*.ipynb_meta          # Jupyter notebook metadata (if not needed)
+.profile-*            # Ignore profile directories (if present)
+*.py.bak              # Ignore backup files from Jupyter conversions to Python scripts
+
+# Python virtual environments
+venv/
+*.venv/
+ENV/
+env/
+*.env
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# PyCharm project settings and workspace files
+.idea/
+*.iml
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Miniconda environments
+conda-env/
+*.condaenv
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows Subsystem for Linux (WSL) metadata
+*.lxss
+
+# Private keys
+*.pem
+*.key
+
+# Certificate files
+*.cert
+
+# SSH Configuration
+.ssh/
+
+# Other sensitive files
+.secret
+
+# Exclude the file containing environment variables
+.env*
+
+# Node.js dependencies
+node_modules/
+
+# Yarn Integrity file
+.yarn-integrity
