@@ -95,3 +95,7 @@ node_modules/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# specifics
+*.todo
+todo.md
