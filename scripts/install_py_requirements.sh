@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Reading package names from requirements.txt
-REQUIREMENTS_FILE="$(dirname "$0")/requirements.txt"
-
-echo "$REQUIREMENTS_FILE"
+REQUIREMENTS_FILE="$(dirname "$0")/../requirements.txt"
 
 if [ ! -f "$REQUIREMENTS_FILE" ]; then
     echo "requirements.txt file not found. Exiting."

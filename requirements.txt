@@ -1,3 +1,4 @@
+metadata
 numpy
 pandas
 jupyterlab
