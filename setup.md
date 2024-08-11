@@ -232,6 +232,12 @@ Follow these steps to set up the `LaunchJupyterWSL.bat` script for starting Jupy
 
 ## Troubleshooting
 
+**If LaunchJupyterWSL fails to execute:**
+
+- Make sure .sh scripts endline format are LF, make sure .bat script endline format is CRLF.
+
 **If JupyterLab does not open automatically in your web browser:**
-    - Try navigating to `http://localhost:8888` in your browser.
-    - If that doesn't work, check the server logs in the opened terminal for any error messages or the server URL, and then copy and paste it into your browser.
+
+- Try navigating to `http://localhost:8888` in your browser.
+
+- If that doesn't work, check the server logs in the opened terminal for any error messages or the server URL, and then copy and paste it into your browser.
